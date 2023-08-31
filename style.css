@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+}
+body{
+    background: #14213d;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    }
+    .card{
+        background:white;
+        width: 270px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+    .card p, h2{
+        padding: 10px;
+    }
+    .image1{
+        background: url(./pizza-recipe-1.jpg);
+    }
+    .image1_image2{
+        background: url(./pizza-recipe-1.jpg);
+    }
+    .image1_image2{
+        background: url(./pizza-recipe-1.jpg);
+    }
+    .image1, .image1_image2, .image1_image3{
+        height: 170px;
+        margin-bottom: 15px;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    } 
+    .card:hover{
+        background-color: #03045e;
+        color: #fff;
+        cursor: pointer;
+        transform: scale(1.06);
+        transition: all 1s ease;
+    } 
